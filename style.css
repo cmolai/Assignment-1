@@ -9,6 +9,62 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-section {
+  margin-left: 25px;
+  padding-left: 10px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.work {
+  border: 5px solid var(--secondary);
+  min-height: 150px;
+  max-height: 150px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  font-size: 12px;
+  min-width: 210px;
+}
+
+
+.work:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+nav a{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--secondary);
+  margin-right: 10px;
+}
 
 #navigation {
   background-color: #f2f2f2;
@@ -34,4 +90,30 @@ body {
 
 .nav-list li a:hover {
   background-color: #dddddd;
+}
+
+
+.pastel {
+  background-image: url("./images/02-portfolio-3.jpg");
+  background-size: contain;
+}
+.surf {
+  background-image: url("./images/02-portfolio-4.jpg");
+  background-size: 100%;
+}
+
+.led {
+  background-image: url("./images/02-portfolio-1.jpg");
+  background-size: contain;
+}
+
+.calculator {
+  background-image: url("./images/02-portfolio-2.jpg");
+  background-size: contain;
+}
+
+.run{
+  background-image: url("./images/02-run-buddy.jpg");
+  background-size: contain;
+
 }
