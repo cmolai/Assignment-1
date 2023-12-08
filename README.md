@@ -1,2 +1,2 @@
 # Assignment-1
-Improving accessibility features on website so that the website meets the industry standard.
+Portfolio page conataining my web devlopment and ux designs 
